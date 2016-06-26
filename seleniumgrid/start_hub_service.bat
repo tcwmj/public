@@ -5,5 +5,6 @@
 @echo =================================
 set home=%cd%
 set grid=selenium-server-standalone-2.53.0.jar
+set config=%home%\hub.json
 cd /d %home%
-java -jar %grid% -role hub
+java -jar %grid% -role hub -hubConfig %config%
