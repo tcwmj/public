@@ -4,7 +4,7 @@
 @echo Start node service on current machine
 @echo =================================
 set home=%cd%
-set grid=selenium-server-standalone-2.53.0.jar
+set grid=selenium-server-standalone-2.53.1.jar
 set config=%home%\node_config.json
 set ie_driver=%home%\..\webdriver\x86\IEDriverServer.exe
 set chrome_driver=%home%\..\webdriver\x86\chromedriver.exe
