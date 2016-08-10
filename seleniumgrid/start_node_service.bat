@@ -9,4 +9,4 @@ set config=%home%\node_config.json
 set ie_driver=%home%\..\webdriver\x86\IEDriverServer.exe
 set chrome_driver=%home%\..\webdriver\x86\chromedriver.exe
 cd /d %home%
-java -jar %grid% -role node -nodeConfig %config% -Dwebdriver.ie.driver=%ie_driver% -Dwebdriver.chrome.driver=%chrome_driver%
+java -jar %grid% -role node -nodeConfig %config% -Dwebdriver.ie.driver=%ie_driver% -Dwebdriver.chrome.driver=%chrome_driver% -Dwebdriver.ie.driver.logfile=%TEMP%\ie_driver_server.log -Dwebdriver.ie.driver.loglevel=DEBUG
