@@ -8,8 +8,8 @@
   "throwOnCapabilityNotPresent": false,
   "nodePolling": 5000,
   "cleanUpCycle": 5000,
-  "timeout": 300000,
-  "browserTimeout": 0,
+  "timeout": 30000,
+  "browserTimeout": 60000,
   "maxSession": 5,
   "jettyMaxThreads": -1
 }
